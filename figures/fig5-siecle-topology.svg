@@ -66,15 +66,15 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
 
       
       <rect x="275" y="300" width="90" height="60" class="box-signal"/>
-      <text x="320" y="320" text-anchor="middle" class="lbl-sm" style="font-weight:600" style="fill:var(--signal)">DCX-T3</text>
+      <text x="320" y="320" text-anchor="middle" class="lbl-sm" style="font-weight:600;fill:var(--signal)">DCX-T3</text>
       <text x="320" y="334" text-anchor="middle" class="lbl-xs" style="fill:var(--signal)">adapter + trimmer</text>
       <text x="320" y="348" text-anchor="middle" class="lbl-xs" style="fill:var(--signal)">(engine bay)</text>
       <path d="M290 269 L295 300 M305 269 L310 300 M320 269 L325 300 M335 269 L340 300" class="signal-line" stroke-width="0.8"/>
 
       
       <path d="M365 320 L430 320 L430 265 L410 265" class="wire-red"/>
-      <text x="440" y="300" class="lbl-xs" style="fill:var(--red)">red wire</text>
-      <text x="440" y="312" class="lbl-xs" style="fill:var(--red)">→ E2-16 (IG 12V)*</text>
+      
+      <text x="226" y="404" class="lbl-xs" style="fill:var(--red)">red wire → E2-16 (IG 12 V)*</text>
 
       
       <line x1="460" y1="20" x2="460" y2="420" class="ink-line" stroke-width="3"/>
@@ -86,8 +86,8 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
 
       
       <path d="M365 335 Q 420 335, 440 310 Q 460 285, 500 285" class="wire-blue"/>
-      <text x="378" y="372" class="lbl-xs">signal leads</text>
-      <text x="378" y="384" class="lbl-xs">(2-pin + 4-pin)</text>
+      <text x="226" y="394" class="lbl-xs">signal leads (2-pin + 4-pin) → cabin</text>
+      
 
       
       <rect x="500" y="240" width="150" height="100" rx="3" class="box"/>

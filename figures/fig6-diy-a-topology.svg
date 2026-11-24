@@ -60,7 +60,7 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
 
         
         <rect x="150" y="290" width="90" height="40" class="box-signal"/>
-        <text x="195" y="305" text-anchor="middle" class="lbl-xs" style="fill:var(--signal)" style="font-weight:600">DIY Y-adapter</text>
+        <text x="195" y="305" text-anchor="middle" class="lbl-xs" style="fill:var(--signal);font-weight:600">DIY Y-adapter</text>
         <text x="195" y="320" text-anchor="middle" class="lbl-xs" style="fill:var(--signal)">pigtail splice</text>
 
         

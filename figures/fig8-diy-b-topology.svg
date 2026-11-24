@@ -44,7 +44,7 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
       <text x="80" y="118" text-anchor="middle" class="lbl-xs">T. body</text>
       
       <path d="M100 160 L100 220 L220 220 L220 180" class="wire-ink"/>
-      <text x="130" y="213" class="lbl-xs">original harness, untouched</text>
+      <text x="50" y="240" class="lbl-xs">original harness, untouched</text>
 
       
       <rect x="200" y="100" width="200" height="130" class="box"/>
@@ -60,7 +60,7 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
 
       
       <rect x="245" y="180" width="30" height="18" class="box-signal"/>
-      <text x="260" y="193" text-anchor="middle" class="lbl-xs" style="fill:var(--signal)" style="font-weight:600">Y</text>
+      <text x="260" y="193" text-anchor="middle" class="lbl-xs" style="fill:var(--signal);font-weight:600">Y</text>
       <path d="M260 155 L260 180" class="wire-ink"/>
       <path d="M260 198 L260 235 L350 235" class="wire-blue"/>
 
