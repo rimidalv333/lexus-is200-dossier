@@ -1,8 +1,6 @@
-<p align="center"><img src="figures/cover.svg" alt="ETCS-i Intercept Study" width="100%"></p>
-
 # Throttle override on *early ETCS-i* Lexus and Toyota
 
-> 1999 Lexus IS200 (Toyota Altezza GXE10, 1G-FE) / Toyota's own repair manual and electrical wiring diagram, with a working account of the Siecle Overtake Booster FA solution and two do-it-yourself alternatives built on the same principle (non-standalone ECU solution).
+1999 Lexus IS200 (Toyota Altezza GXE10, 1G-FE) / Toyota's own repair manual and electrical wiring diagram, with a working account of the Siecle Overtake Booster FA solution and two do-it-yourself alternatives built on the same principle (non-standalone ECU solution).
 
 ---
 
