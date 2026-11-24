@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="d-svg" viewBox="-16.0 -16.0 932.0 432.0" width="932" height="432" role="img" aria-label="DIY option A — throttle-body intercept topology">
+<style>
+svg { --paper:#f3ecde; --paper-raised:#faf4e5; --paper-sunken:#ead9bd; --ink:#1b1611; --ink-mid:#4a3e30; --ink-soft:#7a6b55; --rule:#b4a284; --rule-faint:#d7c7a7; --signal:#b43a1e; --signal-soft:#e9b7a8; --measure:#2b4867; --measure-soft:#a7bbd2; --mech:#c3a97d; --mech-dark:#6d5c48; --mech-fill:#d9c197; --green:#4a7a3a; color: var(--ink);
+  --font-display: 'Fraunces','Iowan Old Style',Palatino,Georgia,serif;
+  --font-body: 'Source Serif 4','Iowan Old Style',Georgia,serif;
+  --font-mono: 'IBM Plex Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace; }
+@media (prefers-color-scheme: dark) { svg { --paper:#16130f; --paper-raised:#1f1a14; --paper-sunken:#0e0c09; --ink:#ece3d1; --ink-mid:#c3b89f; --ink-soft:#9e937d; --rule:#4a3f30; --rule-faint:#2c2519; --signal:#e86a4d; --signal-soft:#4a211a; --measure:#8bb0d4; --measure-soft:#203247; --mech:#a08358; --mech-dark:#d9c197; --mech-fill:#3d3220; --green:#88b876; } }
+.bg { fill: var(--paper-raised); stroke: var(--rule-faint); }
+.d-svg { font-family: var(--font-mono); }
+text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
+.lbl-sm { font-size: 9px; }
+.lbl-xs { font-size: 8px; fill: var(--ink-soft); }
+.ttl { font-family: var(--font-display); font-size: 13px; font-weight: 500; }
+.mech-fill { fill: var(--mech-fill); stroke: var(--mech-dark); stroke-width: 1.2; }
+.mech-line { stroke: var(--mech-dark); stroke-width: 1.2; fill: none; }
+.ink-line { stroke: var(--ink); stroke-width: 1.3; fill: none; }
+.ink-thin { stroke: var(--ink-soft); stroke-width: 0.8; fill: none; }
+.ink-fill { fill: var(--ink); }
+.signal-line { stroke: var(--signal); stroke-width: 1.6; fill: none; }
+.signal-fill { fill: var(--signal); }
+.measure-line { stroke: var(--measure); stroke-width: 1.6; fill: none; }
+.measure-fill { fill: var(--measure); }
+.dashed { stroke-dasharray: 4 3; }
+.dotted { stroke-dasharray: 1.5 2.5; }
+.box { fill: var(--paper-raised); stroke: var(--ink); stroke-width: 1.2; }
+.box-signal { fill: var(--signal-soft); stroke: var(--signal); stroke-width: 1.2; }
+.box-measure { fill: var(--measure-soft); stroke: var(--measure); stroke-width: 1.2; }
+.wire-red { stroke: var(--signal); stroke-width: 1.4; fill: none; }
+.wire-blue { stroke: var(--measure); stroke-width: 1.4; fill: none; }
+.wire-ink { stroke: var(--ink); stroke-width: 1.4; fill: none; }
+.wire-brown { stroke: var(--mech-dark); stroke-width: 1.4; fill: none; }
+.wire-green { stroke: var(--green); stroke-width: 1.4; fill: none; }
+.anno { font-size: 10px; fill: var(--ink-mid); font-style: italic; font-family: var(--font-body); }
+</style>
+<rect class="bg" x="-16.0" y="-16.0" width="932.0" height="432.0" rx="6"/>
+
+      <title id="fig6-t">DIY option A — throttle-body intercept topology</title>
+
+      
+      <rect x="20" y="30" width="420" height="340" fill="var(--paper-sunken)" stroke="var(--rule)" stroke-dasharray="3 3"/>
+      <text x="40" y="52" class="ttl">Engine bay</text>
+
+      
+      <rect x="60" y="130" width="130" height="120" rx="4" class="mech-fill"/>
+      <text x="125" y="150" text-anchor="middle" class="lbl-sm">Throttle body</text>
+      <circle cx="95" cy="195" r="14" class="box"/>
+      <text x="95" y="198" text-anchor="middle" class="lbl-xs" style="font-weight:600">APPS</text>
+      <circle cx="155" cy="195" r="14" class="box"/>
+      <text x="155" y="198" text-anchor="middle" class="lbl-xs" style="font-weight:600">TPS</text>
+
+      
+      <rect x="80" y="235" width="30" height="18" class="box"/>
+      <text x="95" y="268" text-anchor="middle" class="lbl-xs">90980-10711</text>
+
+      
+      <g>
+        
+        <rect x="75" y="300" width="40" height="22" class="box-signal"/>
+        <text x="95" y="314" text-anchor="middle" class="lbl-xs" fill="var(--signal)">female</text>
+        <path d="M95 253 L95 300" class="wire-ink"/>
+
+        
+        <rect x="150" y="290" width="90" height="40" class="box-signal"/>
+        <text x="195" y="305" text-anchor="middle" class="lbl-xs" fill="var(--signal)" style="font-weight:600">DIY Y-adapter</text>
+        <text x="195" y="320" text-anchor="middle" class="lbl-xs" fill="var(--signal)">pigtail splice</text>
+
+        
+        <rect x="265" y="300" width="40" height="22" class="box-signal"/>
+        <text x="285" y="314" text-anchor="middle" class="lbl-xs" fill="var(--signal)">male</text>
+
+        
+        <path d="M115 311 L150 311" class="wire-ink"/>
+        <path d="M240 310 L265 310" class="wire-ink"/>
+      </g>
+
+      
+      <path d="M285 322 Q 285 350, 310 350 L400 350 L400 370" class="wire-ink"/>
+      <text x="320" y="345" class="lbl-xs">to ECU plug E5</text>
+
+      
+      <path d="M195 290 Q 195 220, 300 220 L440 220" class="wire-blue"/>
+      <text x="200" y="212" class="lbl-xs" fill="var(--measure)">6 cores shielded</text>
+      <text x="200" y="225" class="lbl-xs" fill="var(--measure)">S_VPA, S_VPA2, VC, E2, H_VPA, H_VPA2</text>
+
+      
+      <line x1="440" y1="20" x2="440" y2="380" class="ink-line" stroke-width="3"/>
+      <text x="434" y="42" text-anchor="end" class="lbl-xs" fill="var(--ink-soft)">firewall</text>
+
+      
+      <rect x="450" y="30" width="430" height="340" fill="var(--paper-sunken)" stroke="var(--rule)" stroke-dasharray="3 3"/>
+      <text x="470" y="52" class="ttl">Cabin</text>
+
+      
+      <rect x="500" y="140" width="200" height="180" rx="3" class="box"/>
+      <text x="600" y="162" text-anchor="middle" class="ttl">DIY interceptor</text>
+      <text x="600" y="186" text-anchor="middle" class="lbl-sm">MCU · ADC · DAC</text>
+      <text x="600" y="202" text-anchor="middle" class="lbl-sm">bypass relay</text>
+      <text x="600" y="218" text-anchor="middle" class="lbl-sm">watchdog</text>
+      <text x="600" y="240" text-anchor="middle" class="lbl-xs">sealed enclosure</text>
+      <text x="600" y="254" text-anchor="middle" class="lbl-xs">under dash / passenger kick</text>
+
+      
+      <path d="M440 220 L500 220" class="wire-blue"/>
+
+      
+      <rect x="760" y="90" width="90" height="50" rx="4" class="box"/>
+      <text x="805" y="110" text-anchor="middle" class="lbl-sm" style="font-weight:600">Mode switch</text>
+      <text x="805" y="126" text-anchor="middle" class="lbl-xs">+ LED</text>
+      <path d="M700 180 Q 760 180, 790 160 L790 140" class="wire-ink"/>
+
+      
+      <rect x="760" y="310" width="110" height="40" rx="2" class="box"/>
+      <text x="815" y="330" text-anchor="middle" class="lbl-sm" style="font-weight:600">OBD-II</text>
+      <text x="815" y="344" text-anchor="middle" class="lbl-xs">+12 V constant</text>
+      <path d="M700 290 Q 760 290, 790 310" class="wire-red"/>
+      <text x="710" y="285" class="lbl-xs" fill="var(--signal)">switched 12 V</text>
+      <text x="710" y="297" class="lbl-xs" fill="var(--signal)">(or FAOBD-style tap)</text>
+
+    
+</svg>

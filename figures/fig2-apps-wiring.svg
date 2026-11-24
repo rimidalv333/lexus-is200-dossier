@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="d-svg" viewBox="-16.0 -16.0 932.0 367.0" width="932" height="367" role="img" aria-label="Accelerator sensor wiring to engine ECU plug E5">
+<style>
+svg { --paper:#f3ecde; --paper-raised:#faf4e5; --paper-sunken:#ead9bd; --ink:#1b1611; --ink-mid:#4a3e30; --ink-soft:#7a6b55; --rule:#b4a284; --rule-faint:#d7c7a7; --signal:#b43a1e; --signal-soft:#e9b7a8; --measure:#2b4867; --measure-soft:#a7bbd2; --mech:#c3a97d; --mech-dark:#6d5c48; --mech-fill:#d9c197; --green:#4a7a3a; color: var(--ink);
+  --font-display: 'Fraunces','Iowan Old Style',Palatino,Georgia,serif;
+  --font-body: 'Source Serif 4','Iowan Old Style',Georgia,serif;
+  --font-mono: 'IBM Plex Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace; }
+@media (prefers-color-scheme: dark) { svg { --paper:#16130f; --paper-raised:#1f1a14; --paper-sunken:#0e0c09; --ink:#ece3d1; --ink-mid:#c3b89f; --ink-soft:#9e937d; --rule:#4a3f30; --rule-faint:#2c2519; --signal:#e86a4d; --signal-soft:#4a211a; --measure:#8bb0d4; --measure-soft:#203247; --mech:#a08358; --mech-dark:#d9c197; --mech-fill:#3d3220; --green:#88b876; } }
+.bg { fill: var(--paper-raised); stroke: var(--rule-faint); }
+.d-svg { font-family: var(--font-mono); }
+text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
+.lbl-sm { font-size: 9px; }
+.lbl-xs { font-size: 8px; fill: var(--ink-soft); }
+.ttl { font-family: var(--font-display); font-size: 13px; font-weight: 500; }
+.mech-fill { fill: var(--mech-fill); stroke: var(--mech-dark); stroke-width: 1.2; }
+.mech-line { stroke: var(--mech-dark); stroke-width: 1.2; fill: none; }
+.ink-line { stroke: var(--ink); stroke-width: 1.3; fill: none; }
+.ink-thin { stroke: var(--ink-soft); stroke-width: 0.8; fill: none; }
+.ink-fill { fill: var(--ink); }
+.signal-line { stroke: var(--signal); stroke-width: 1.6; fill: none; }
+.signal-fill { fill: var(--signal); }
+.measure-line { stroke: var(--measure); stroke-width: 1.6; fill: none; }
+.measure-fill { fill: var(--measure); }
+.dashed { stroke-dasharray: 4 3; }
+.dotted { stroke-dasharray: 1.5 2.5; }
+.box { fill: var(--paper-raised); stroke: var(--ink); stroke-width: 1.2; }
+.box-signal { fill: var(--signal-soft); stroke: var(--signal); stroke-width: 1.2; }
+.box-measure { fill: var(--measure-soft); stroke: var(--measure); stroke-width: 1.2; }
+.wire-red { stroke: var(--signal); stroke-width: 1.4; fill: none; }
+.wire-blue { stroke: var(--measure); stroke-width: 1.4; fill: none; }
+.wire-ink { stroke: var(--ink); stroke-width: 1.4; fill: none; }
+.wire-brown { stroke: var(--mech-dark); stroke-width: 1.4; fill: none; }
+.wire-green { stroke: var(--green); stroke-width: 1.4; fill: none; }
+.anno { font-size: 10px; fill: var(--ink-mid); font-style: italic; font-family: var(--font-body); }
+</style>
+<rect class="bg" x="-16.0" y="-16.0" width="932.0" height="367.0" rx="6"/>
+
+      <title id="fig2-t">Accelerator sensor wiring to engine ECU plug E5</title>
+
+      
+      <text x="60" y="36" class="ttl">Accelerator pedal position sensor (on throttle body)</text>
+      <rect x="60" y="60" width="200" height="160" rx="4" class="box"/>
+      <circle cx="160" cy="140" r="46" fill="var(--paper-sunken)" stroke="var(--mech-dark)" stroke-width="1.2"/>
+      <circle cx="160" cy="140" r="6" class="ink-fill"/>
+      
+      <path d="M160 140 L190 115" class="ink-line" stroke-width="1.6"/>
+      <text x="90" y="210" class="lbl-xs">potentiometer (dual track)</text>
+
+      
+      <g transform="translate(290, 100)">
+        <rect x="0" y="0" width="80" height="110" rx="2" class="box"/>
+        
+        <rect x="12" y="12" width="22" height="22" fill="var(--paper-sunken)" stroke="var(--ink)" stroke-width="0.8"/>
+        <rect x="46" y="12" width="22" height="22" fill="var(--paper-sunken)" stroke="var(--ink)" stroke-width="0.8"/>
+        <rect x="12" y="78" width="22" height="22" fill="var(--paper-sunken)" stroke="var(--ink)" stroke-width="0.8"/>
+        <rect x="46" y="78" width="22" height="22" fill="var(--paper-sunken)" stroke="var(--ink)" stroke-width="0.8"/>
+        <text x="23" y="27" text-anchor="middle" class="lbl-sm" style="font-weight:600">1</text>
+        <text x="57" y="27" text-anchor="middle" class="lbl-sm" style="font-weight:600">2</text>
+        <text x="23" y="93" text-anchor="middle" class="lbl-sm" style="font-weight:600">3</text>
+        <text x="57" y="93" text-anchor="middle" class="lbl-sm" style="font-weight:600">4</text>
+        <text x="40" y="128" text-anchor="middle" class="lbl-xs">90980-10711</text>
+      </g>
+
+      
+      <path d="M370 115 L540 115 L600 85 L640 85" class="wire-brown"/>
+      <text x="382" y="109" class="lbl-sm">pin 1 · E2 — Brown (BR)</text>
+      <path d="M370 135 L540 135 L600 130 L640 130" class="wire-blue"/>
+      <text x="382" y="149" class="lbl-sm">pin 2 · VPA2 — Blue/White (L-W)</text>
+      <path d="M370 175 L640 175" class="wire-green"/>
+      <text x="382" y="169" class="lbl-sm">pin 3 · VPA — Lt green/Black (LG-B)</text>
+      <path d="M370 195 L540 195 L600 220 L640 220" class="wire-red"/>
+      <text x="382" y="210" class="lbl-sm">pin 4 · VC +5 V — Blue/Yellow (L-Y)</text>
+
+      
+      <rect x="640" y="60" width="252" height="200" rx="2" class="box"/>
+      <text x="766" y="52" text-anchor="middle" class="ttl">Engine ECU — plug E5</text>
+
+      
+      <g transform="translate(640,80)">
+        
+        <rect x="0" y="-5" width="60" height="20" class="ink-fill"/>
+        <text x="80" y="9" class="lbl-sm" style="font-weight:600">E5-18 · E2</text>
+        <text x="80" y="22" class="lbl-xs">sensor ground</text>
+      </g>
+      <g transform="translate(640,125)">
+        <rect x="0" y="-5" width="60" height="20" class="ink-fill"/>
+        <text x="80" y="9" class="lbl-sm" style="font-weight:600">E5-16 · VPA2</text>
+        <text x="80" y="22" class="lbl-xs">1.8–2.7 V closed · 4.7–5.1 V open</text>
+      </g>
+      <g transform="translate(640,170)">
+        <rect x="0" y="-5" width="60" height="20" class="ink-fill"/>
+        <text x="80" y="9" class="lbl-sm" style="font-weight:600">E5-15 · VPA</text>
+        <text x="80" y="22" class="lbl-xs">0.3–0.9 V closed · 3.2–4.8 V open</text>
+      </g>
+      <g transform="translate(640,215)">
+        <rect x="0" y="-5" width="60" height="20" class="ink-fill"/>
+        <text x="80" y="9" class="lbl-sm" style="font-weight:600">E5-2  · VC</text>
+        <text x="80" y="22" class="lbl-xs">4.5–5.5 V (shared supply)</text>
+      </g>
+
+      
+      <text x="60" y="300" class="anno">Note. The throttle position sensor (TPS) uses the same four signal types on a visually identical 90980-10711 plug, but mapped to ECU pins VTA, VTA2, VC, E2. Do not cross-wire them.</text>
+      <text x="60" y="320" class="anno">The 5 V supply (VC) and sensor ground (E2) are shared across several sensors on this ECU; both are tightly regulated. Any tap must present a high impedance to them.</text>
+    
+</svg>

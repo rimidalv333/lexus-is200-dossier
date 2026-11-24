@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="d-svg" viewBox="-16.0 -16.0 932.0 352.0" width="932" height="352" role="img" aria-label="DIY option B — ECU-plug intercept topology">
+<style>
+svg { --paper:#f3ecde; --paper-raised:#faf4e5; --paper-sunken:#ead9bd; --ink:#1b1611; --ink-mid:#4a3e30; --ink-soft:#7a6b55; --rule:#b4a284; --rule-faint:#d7c7a7; --signal:#b43a1e; --signal-soft:#e9b7a8; --measure:#2b4867; --measure-soft:#a7bbd2; --mech:#c3a97d; --mech-dark:#6d5c48; --mech-fill:#d9c197; --green:#4a7a3a; color: var(--ink);
+  --font-display: 'Fraunces','Iowan Old Style',Palatino,Georgia,serif;
+  --font-body: 'Source Serif 4','Iowan Old Style',Georgia,serif;
+  --font-mono: 'IBM Plex Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace; }
+@media (prefers-color-scheme: dark) { svg { --paper:#16130f; --paper-raised:#1f1a14; --paper-sunken:#0e0c09; --ink:#ece3d1; --ink-mid:#c3b89f; --ink-soft:#9e937d; --rule:#4a3f30; --rule-faint:#2c2519; --signal:#e86a4d; --signal-soft:#4a211a; --measure:#8bb0d4; --measure-soft:#203247; --mech:#a08358; --mech-dark:#d9c197; --mech-fill:#3d3220; --green:#88b876; } }
+.bg { fill: var(--paper-raised); stroke: var(--rule-faint); }
+.d-svg { font-family: var(--font-mono); }
+text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
+.lbl-sm { font-size: 9px; }
+.lbl-xs { font-size: 8px; fill: var(--ink-soft); }
+.ttl { font-family: var(--font-display); font-size: 13px; font-weight: 500; }
+.mech-fill { fill: var(--mech-fill); stroke: var(--mech-dark); stroke-width: 1.2; }
+.mech-line { stroke: var(--mech-dark); stroke-width: 1.2; fill: none; }
+.ink-line { stroke: var(--ink); stroke-width: 1.3; fill: none; }
+.ink-thin { stroke: var(--ink-soft); stroke-width: 0.8; fill: none; }
+.ink-fill { fill: var(--ink); }
+.signal-line { stroke: var(--signal); stroke-width: 1.6; fill: none; }
+.signal-fill { fill: var(--signal); }
+.measure-line { stroke: var(--measure); stroke-width: 1.6; fill: none; }
+.measure-fill { fill: var(--measure); }
+.dashed { stroke-dasharray: 4 3; }
+.dotted { stroke-dasharray: 1.5 2.5; }
+.box { fill: var(--paper-raised); stroke: var(--ink); stroke-width: 1.2; }
+.box-signal { fill: var(--signal-soft); stroke: var(--signal); stroke-width: 1.2; }
+.box-measure { fill: var(--measure-soft); stroke: var(--measure); stroke-width: 1.2; }
+.wire-red { stroke: var(--signal); stroke-width: 1.4; fill: none; }
+.wire-blue { stroke: var(--measure); stroke-width: 1.4; fill: none; }
+.wire-ink { stroke: var(--ink); stroke-width: 1.4; fill: none; }
+.wire-brown { stroke: var(--mech-dark); stroke-width: 1.4; fill: none; }
+.wire-green { stroke: var(--green); stroke-width: 1.4; fill: none; }
+.anno { font-size: 10px; fill: var(--ink-mid); font-style: italic; font-family: var(--font-body); }
+</style>
+<rect class="bg" x="-16.0" y="-16.0" width="932.0" height="352.0" rx="6"/>
+
+      <title id="fig8-t">DIY option B — ECU-plug intercept topology</title>
+
+      
+      <rect x="20" y="30" width="440" height="260" fill="var(--paper-sunken)" stroke="var(--rule)" stroke-dasharray="3 3"/>
+      <text x="40" y="52" class="ttl">Engine bay</text>
+
+      
+      <rect x="40" y="100" width="80" height="60" class="mech-fill"/>
+      <text x="80" y="118" text-anchor="middle" class="lbl-xs">T. body</text>
+      
+      <path d="M100 160 L100 220 L220 220 L220 180" class="wire-ink"/>
+      <text x="130" y="213" class="lbl-xs">original harness, untouched</text>
+
+      
+      <rect x="200" y="100" width="200" height="130" class="box"/>
+      <text x="300" y="120" text-anchor="middle" class="ttl">Engine ECU</text>
+      <g>
+        <rect x="215" y="135" width="26" height="20" class="ink-fill"/>
+        <rect x="247" y="135" width="26" height="20" class="box-signal"/>
+        <text x="260" y="170" text-anchor="middle" class="lbl-xs" fill="var(--signal)">E5</text>
+        <rect x="279" y="135" width="26" height="20" class="ink-fill"/>
+        <rect x="311" y="135" width="26" height="20" class="ink-fill"/>
+        <rect x="343" y="135" width="22" height="20" class="ink-fill"/>
+      </g>
+
+      
+      <rect x="245" y="180" width="30" height="18" class="box-signal"/>
+      <text x="260" y="193" text-anchor="middle" class="lbl-xs" fill="var(--signal)" style="font-weight:600">Y</text>
+      <path d="M260 155 L260 180" class="wire-ink"/>
+      <path d="M260 198 L260 235 L350 235" class="wire-blue"/>
+
+      
+      <path d="M350 235 Q 420 235, 440 220 L480 220" class="wire-blue"/>
+
+      
+      <line x1="440" y1="20" x2="440" y2="300" class="ink-line" stroke-width="3"/>
+
+      
+      <rect x="450" y="30" width="430" height="260" fill="var(--paper-sunken)" stroke="var(--rule)" stroke-dasharray="3 3"/>
+      <text x="470" y="52" class="ttl">Cabin</text>
+      <rect x="500" y="140" width="200" height="140" rx="3" class="box"/>
+      <text x="600" y="162" text-anchor="middle" class="ttl">DIY interceptor</text>
+      <text x="600" y="182" text-anchor="middle" class="lbl-sm">identical to option A</text>
+
+      
+      <text x="40" y="262" class="anno">Challenge: the 24-pin E5 plug and its mating socket are not sold as service parts.</text><text x="40" y="278" class="anno">A matching pair has to be harvested from a scrapped 1G-FE ECU and loom.</text>
+    
+</svg>
