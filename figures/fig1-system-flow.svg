@@ -1,11 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="d-svg" viewBox="-16.0 -16.0 932.0 432.0" width="932" height="432" role="img" aria-label="End-to-end flow from accelerator pedal to throttle plate">
 <style>
-svg { --paper:#f3ecde; --paper-raised:#faf4e5; --paper-sunken:#ead9bd; --ink:#1b1611; --ink-mid:#4a3e30; --ink-soft:#7a6b55; --rule:#b4a284; --rule-faint:#d7c7a7; --signal:#b43a1e; --signal-soft:#e9b7a8; --measure:#2b4867; --measure-soft:#a7bbd2; --mech:#c3a97d; --mech-dark:#6d5c48; --mech-fill:#d9c197; --green:#4a7a3a; color: var(--ink);
+svg { --paper:#0d1117; --paper-raised:#161b22; --paper-sunken:#0d1117; --ink:#e6edf3; --ink-mid:#c9d1d9; --ink-soft:#8b949e; --rule:#30363d; --rule-faint:#21262d; --signal:#58a6ff; --signal-soft:#0f2541; --measure:#d2a8ff; --measure-soft:#271c3f; --mech:#6e7681; --mech-dark:#8b949e; --mech-fill:#21262d; --green:#3fb950; --red:#f85149; --red-soft:#3a1418; --wblue:#79c0ff; --brown:#d29922; color: var(--ink);
   --font-display: 'Fraunces','Iowan Old Style',Palatino,Georgia,serif;
   --font-body: 'Source Serif 4','Iowan Old Style',Georgia,serif;
   --font-mono: 'IBM Plex Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace; }
-@media (prefers-color-scheme: dark) { svg { --paper:#16130f; --paper-raised:#1f1a14; --paper-sunken:#0e0c09; --ink:#ece3d1; --ink-mid:#c3b89f; --ink-soft:#9e937d; --rule:#4a3f30; --rule-faint:#2c2519; --signal:#e86a4d; --signal-soft:#4a211a; --measure:#8bb0d4; --measure-soft:#203247; --mech:#a08358; --mech-dark:#d9c197; --mech-fill:#3d3220; --green:#88b876; } }
-.bg { fill: var(--paper-raised); stroke: var(--rule-faint); }
+.bg { fill: var(--paper); stroke: var(--rule); }
 .d-svg { font-family: var(--font-mono); }
 text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
 .lbl-sm { font-size: 9px; }
@@ -25,10 +24,10 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
 .box { fill: var(--paper-raised); stroke: var(--ink); stroke-width: 1.2; }
 .box-signal { fill: var(--signal-soft); stroke: var(--signal); stroke-width: 1.2; }
 .box-measure { fill: var(--measure-soft); stroke: var(--measure); stroke-width: 1.2; }
-.wire-red { stroke: var(--signal); stroke-width: 1.4; fill: none; }
-.wire-blue { stroke: var(--measure); stroke-width: 1.4; fill: none; }
+.wire-red { stroke: var(--red); stroke-width: 1.4; fill: none; }
+.wire-blue { stroke: var(--wblue); stroke-width: 1.4; fill: none; }
 .wire-ink { stroke: var(--ink); stroke-width: 1.4; fill: none; }
-.wire-brown { stroke: var(--mech-dark); stroke-width: 1.4; fill: none; }
+.wire-brown { stroke: var(--brown); stroke-width: 1.4; fill: none; }
 .wire-green { stroke: var(--green); stroke-width: 1.4; fill: none; }
 .anno { font-size: 10px; fill: var(--ink-mid); font-style: italic; font-family: var(--font-body); }
 </style>
@@ -76,21 +75,21 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
       <text x="520" y="280" class="lbl-sm">plate</text>
 
       
-      <circle cx="360" cy="170" r="18" class="box"/>
+      <circle cx="360" cy="170" r="21" class="box"/>
       <text x="360" y="168" text-anchor="middle" class="lbl-sm" style="font-weight:600">APPS</text>
       <text x="360" y="180" text-anchor="middle" class="lbl-xs">(cable)</text>
       
       <path d="M340 170 L352 170" class="ink-line"/>
 
       
-      <rect x="430" y="150" width="60" height="40" rx="3" class="box"/>
+      <rect x="420" y="150" width="80" height="40" rx="3" class="box"/>
       <text x="460" y="166" text-anchor="middle" class="lbl-sm" style="font-weight:600">Motor</text>
       <text x="460" y="178" text-anchor="middle" class="lbl-xs">+ mag. clutch</text>
       
       <path d="M460 190 L460 240 L500 258" class="mech-line"/>
 
       
-      <circle cx="620" cy="170" r="18" class="box"/>
+      <circle cx="620" cy="170" r="21" class="box"/>
       <text x="620" y="168" text-anchor="middle" class="lbl-sm" style="font-weight:600">TPS</text>
       <text x="620" y="180" text-anchor="middle" class="lbl-xs">(plate)</text>
       
@@ -112,7 +111,7 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
       <text x="520" y="208" class="lbl-sm signal-fill">motor drive</text>
 
       <path d="M638 170 L700 170" class="measure-line" marker-end="url(#arrow-meas)"/>
-      <text x="636" y="160" class="lbl-sm measure-fill">VTA / VTA2 feedback</text>
+      <text x="643" y="196" class="lbl-sm measure-fill">VTA/VTA2</text><text x="643" y="207" class="lbl-sm measure-fill">feedback</text>
 
       
       <path d="M330 260 L340 260" class="ink-thin" marker-end="url(#arrow)"/>

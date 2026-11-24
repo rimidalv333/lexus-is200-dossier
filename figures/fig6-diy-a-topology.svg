@@ -1,11 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="d-svg" viewBox="-16.0 -16.0 932.0 432.0" width="932" height="432" role="img" aria-label="DIY option A — throttle-body intercept topology">
 <style>
-svg { --paper:#f3ecde; --paper-raised:#faf4e5; --paper-sunken:#ead9bd; --ink:#1b1611; --ink-mid:#4a3e30; --ink-soft:#7a6b55; --rule:#b4a284; --rule-faint:#d7c7a7; --signal:#b43a1e; --signal-soft:#e9b7a8; --measure:#2b4867; --measure-soft:#a7bbd2; --mech:#c3a97d; --mech-dark:#6d5c48; --mech-fill:#d9c197; --green:#4a7a3a; color: var(--ink);
+svg { --paper:#0d1117; --paper-raised:#161b22; --paper-sunken:#0d1117; --ink:#e6edf3; --ink-mid:#c9d1d9; --ink-soft:#8b949e; --rule:#30363d; --rule-faint:#21262d; --signal:#58a6ff; --signal-soft:#0f2541; --measure:#d2a8ff; --measure-soft:#271c3f; --mech:#6e7681; --mech-dark:#8b949e; --mech-fill:#21262d; --green:#3fb950; --red:#f85149; --red-soft:#3a1418; --wblue:#79c0ff; --brown:#d29922; color: var(--ink);
   --font-display: 'Fraunces','Iowan Old Style',Palatino,Georgia,serif;
   --font-body: 'Source Serif 4','Iowan Old Style',Georgia,serif;
   --font-mono: 'IBM Plex Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace; }
-@media (prefers-color-scheme: dark) { svg { --paper:#16130f; --paper-raised:#1f1a14; --paper-sunken:#0e0c09; --ink:#ece3d1; --ink-mid:#c3b89f; --ink-soft:#9e937d; --rule:#4a3f30; --rule-faint:#2c2519; --signal:#e86a4d; --signal-soft:#4a211a; --measure:#8bb0d4; --measure-soft:#203247; --mech:#a08358; --mech-dark:#d9c197; --mech-fill:#3d3220; --green:#88b876; } }
-.bg { fill: var(--paper-raised); stroke: var(--rule-faint); }
+.bg { fill: var(--paper); stroke: var(--rule); }
 .d-svg { font-family: var(--font-mono); }
 text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
 .lbl-sm { font-size: 9px; }
@@ -25,10 +24,10 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
 .box { fill: var(--paper-raised); stroke: var(--ink); stroke-width: 1.2; }
 .box-signal { fill: var(--signal-soft); stroke: var(--signal); stroke-width: 1.2; }
 .box-measure { fill: var(--measure-soft); stroke: var(--measure); stroke-width: 1.2; }
-.wire-red { stroke: var(--signal); stroke-width: 1.4; fill: none; }
-.wire-blue { stroke: var(--measure); stroke-width: 1.4; fill: none; }
+.wire-red { stroke: var(--red); stroke-width: 1.4; fill: none; }
+.wire-blue { stroke: var(--wblue); stroke-width: 1.4; fill: none; }
 .wire-ink { stroke: var(--ink); stroke-width: 1.4; fill: none; }
-.wire-brown { stroke: var(--mech-dark); stroke-width: 1.4; fill: none; }
+.wire-brown { stroke: var(--brown); stroke-width: 1.4; fill: none; }
 .wire-green { stroke: var(--green); stroke-width: 1.4; fill: none; }
 .anno { font-size: 10px; fill: var(--ink-mid); font-style: italic; font-family: var(--font-body); }
 </style>
@@ -56,17 +55,17 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
       <g>
         
         <rect x="75" y="300" width="40" height="22" class="box-signal"/>
-        <text x="95" y="314" text-anchor="middle" class="lbl-xs" fill="var(--signal)">female</text>
+        <text x="95" y="314" text-anchor="middle" class="lbl-xs" style="fill:var(--signal)">female</text>
         <path d="M95 253 L95 300" class="wire-ink"/>
 
         
         <rect x="150" y="290" width="90" height="40" class="box-signal"/>
-        <text x="195" y="305" text-anchor="middle" class="lbl-xs" fill="var(--signal)" style="font-weight:600">DIY Y-adapter</text>
-        <text x="195" y="320" text-anchor="middle" class="lbl-xs" fill="var(--signal)">pigtail splice</text>
+        <text x="195" y="305" text-anchor="middle" class="lbl-xs" style="fill:var(--signal)" style="font-weight:600">DIY Y-adapter</text>
+        <text x="195" y="320" text-anchor="middle" class="lbl-xs" style="fill:var(--signal)">pigtail splice</text>
 
         
         <rect x="265" y="300" width="40" height="22" class="box-signal"/>
-        <text x="285" y="314" text-anchor="middle" class="lbl-xs" fill="var(--signal)">male</text>
+        <text x="285" y="314" text-anchor="middle" class="lbl-xs" style="fill:var(--signal)">male</text>
 
         
         <path d="M115 311 L150 311" class="wire-ink"/>
@@ -79,12 +78,12 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
 
       
       <path d="M195 290 Q 195 220, 300 220 L440 220" class="wire-blue"/>
-      <text x="200" y="212" class="lbl-xs" fill="var(--measure)">6 cores shielded</text>
-      <text x="200" y="225" class="lbl-xs" fill="var(--measure)">S_VPA, S_VPA2, VC, E2, H_VPA, H_VPA2</text>
+      <text x="200" y="212" class="lbl-xs" style="fill:var(--measure)">6 cores shielded</text>
+      <text x="200" y="225" class="lbl-xs" style="fill:var(--measure)">S_VPA, S_VPA2, VC, E2, H_VPA, H_VPA2</text>
 
       
       <line x1="440" y1="20" x2="440" y2="380" class="ink-line" stroke-width="3"/>
-      <text x="434" y="42" text-anchor="end" class="lbl-xs" fill="var(--ink-soft)">firewall</text>
+      <text x="434" y="42" text-anchor="end" class="lbl-xs" style="fill:var(--ink-soft)">firewall</text>
 
       
       <rect x="450" y="30" width="430" height="340" fill="var(--paper-sunken)" stroke="var(--rule)" stroke-dasharray="3 3"/>
@@ -113,8 +112,8 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
       <text x="815" y="330" text-anchor="middle" class="lbl-sm" style="font-weight:600">OBD-II</text>
       <text x="815" y="344" text-anchor="middle" class="lbl-xs">+12 V constant</text>
       <path d="M700 290 Q 760 290, 790 310" class="wire-red"/>
-      <text x="710" y="285" class="lbl-xs" fill="var(--signal)">switched 12 V</text>
-      <text x="710" y="297" class="lbl-xs" fill="var(--signal)">(or FAOBD-style tap)</text>
+      <text x="710" y="285" class="lbl-xs" style="fill:var(--signal)">switched 12 V</text>
+      <text x="710" y="297" class="lbl-xs" style="fill:var(--signal)">(or FAOBD-style tap)</text>
 
     
 </svg>

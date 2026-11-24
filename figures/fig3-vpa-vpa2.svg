@@ -1,11 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="d-svg" viewBox="-16.0 -16.0 632.0 392.0" width="632" height="392" role="img" aria-label="VPA and VPA2 voltages across pedal travel">
 <style>
-svg { --paper:#f3ecde; --paper-raised:#faf4e5; --paper-sunken:#ead9bd; --ink:#1b1611; --ink-mid:#4a3e30; --ink-soft:#7a6b55; --rule:#b4a284; --rule-faint:#d7c7a7; --signal:#b43a1e; --signal-soft:#e9b7a8; --measure:#2b4867; --measure-soft:#a7bbd2; --mech:#c3a97d; --mech-dark:#6d5c48; --mech-fill:#d9c197; --green:#4a7a3a; color: var(--ink);
+svg { --paper:#0d1117; --paper-raised:#161b22; --paper-sunken:#0d1117; --ink:#e6edf3; --ink-mid:#c9d1d9; --ink-soft:#8b949e; --rule:#30363d; --rule-faint:#21262d; --signal:#58a6ff; --signal-soft:#0f2541; --measure:#d2a8ff; --measure-soft:#271c3f; --mech:#6e7681; --mech-dark:#8b949e; --mech-fill:#21262d; --green:#3fb950; --red:#f85149; --red-soft:#3a1418; --wblue:#79c0ff; --brown:#d29922; color: var(--ink);
   --font-display: 'Fraunces','Iowan Old Style',Palatino,Georgia,serif;
   --font-body: 'Source Serif 4','Iowan Old Style',Georgia,serif;
   --font-mono: 'IBM Plex Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace; }
-@media (prefers-color-scheme: dark) { svg { --paper:#16130f; --paper-raised:#1f1a14; --paper-sunken:#0e0c09; --ink:#ece3d1; --ink-mid:#c3b89f; --ink-soft:#9e937d; --rule:#4a3f30; --rule-faint:#2c2519; --signal:#e86a4d; --signal-soft:#4a211a; --measure:#8bb0d4; --measure-soft:#203247; --mech:#a08358; --mech-dark:#d9c197; --mech-fill:#3d3220; --green:#88b876; } }
-.bg { fill: var(--paper-raised); stroke: var(--rule-faint); }
+.bg { fill: var(--paper); stroke: var(--rule); }
 .d-svg { font-family: var(--font-mono); }
 text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
 .lbl-sm { font-size: 9px; }
@@ -25,10 +24,10 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
 .box { fill: var(--paper-raised); stroke: var(--ink); stroke-width: 1.2; }
 .box-signal { fill: var(--signal-soft); stroke: var(--signal); stroke-width: 1.2; }
 .box-measure { fill: var(--measure-soft); stroke: var(--measure); stroke-width: 1.2; }
-.wire-red { stroke: var(--signal); stroke-width: 1.4; fill: none; }
-.wire-blue { stroke: var(--measure); stroke-width: 1.4; fill: none; }
+.wire-red { stroke: var(--red); stroke-width: 1.4; fill: none; }
+.wire-blue { stroke: var(--wblue); stroke-width: 1.4; fill: none; }
 .wire-ink { stroke: var(--ink); stroke-width: 1.4; fill: none; }
-.wire-brown { stroke: var(--mech-dark); stroke-width: 1.4; fill: none; }
+.wire-brown { stroke: var(--brown); stroke-width: 1.4; fill: none; }
 .wire-green { stroke: var(--green); stroke-width: 1.4; fill: none; }
 .anno { font-size: 10px; fill: var(--ink-mid); font-style: italic; font-family: var(--font-body); }
 </style>
@@ -54,8 +53,8 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
         </g>
 
         
-        <rect x="0" y="0" width="480" height="12" fill="var(--signal-soft)" opacity="0.6"/>
-        <text x="470" y="10" text-anchor="end" class="lbl-xs" fill="var(--signal)">Fault zone VPA &gt; 4.8 V</text>
+        <rect x="0" y="0" width="480" height="12" fill="var(--red-soft)"/>
+        <text x="470" y="10" text-anchor="end" class="lbl-xs" style="fill:var(--red)">Fault zone VPA &gt; 4.8 V</text>
 
         
         <line x1="0" y1="260" x2="480" y2="260" class="ink-line"/>
@@ -96,8 +95,8 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
           <line x1="192" y1="0" x2="192" y2="260" class="ink-thin dashed"/>
           <circle cx="192" cy="158" r="3" class="signal-fill"/>
           <circle cx="192" cy="95" r="3" class="measure-fill"/>
-          <text x="200" y="175" class="lbl-xs" fill="var(--signal)">VPA ≈ 2.0 V</text>
-          <text x="200" y="90" class="lbl-xs" fill="var(--measure)">VPA2 ≈ 3.4 V</text>
+          <text x="200" y="175" class="lbl-xs" style="fill:var(--signal)">VPA ≈ 2.0 V</text>
+          <text x="200" y="90" class="lbl-xs" style="fill:var(--measure)">VPA2 ≈ 3.4 V</text>
         </g>
 
       </g>
