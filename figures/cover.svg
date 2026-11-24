@@ -39,11 +39,9 @@ text { fill: var(--ink); font-size: 11px; font-family: var(--font-mono); }
 </style>
 <rect x="0" y="0" width="960" height="320" fill="var(--paper)"/>
 <rect x="0" y="0" width="960" height="3" fill="var(--ink)"/>
-<text x="40" y="44" class="eb">TECHNICAL REPORT · REV 1</text>
 <text x="920" y="44" text-anchor="end" class="eb">LEXUS IS200 · GXE10 · 1G-FE</text>
-<text x="40" y="118" class="h1">Rewriting the pedal on an</text>
-<text x="40" y="178" class="h1"><tspan class="em">early ETCS-i</tspan> Lexus</text>
+<text x="40" y="148" class="h1"><tspan class="em">Early Toyota/Lexus ETCS-i</tspan></text>
 <line x1="40" y1="212" x2="920" y2="212" stroke="var(--rule)" stroke-dasharray="3 3"/>
-<text x="40" y="236" class="k">SUBJECT</text><text x="40" y="252" class="v">Lexus IS200 / Altezza GXE10</text><text x="340" y="236" class="k">ENGINE</text><text x="340" y="252" class="v">1G-FE BEAMS, 2.0 L straight six</text><text x="640" y="236" class="k">SYSTEM</text><text x="640" y="252" class="v">ETCS-i (hybrid cable + motor)</text><text x="40" y="272" class="k">ECM</text><text x="40" y="288" class="v">RM684E, pin plug E5</text><text x="340" y="272" class="k">SIGNALS</text><text x="340" y="288" class="v">VPA, VPA2, VC, E2</text><text x="640" y="272" class="k">FAULT CODE OF INTEREST</text><text x="640" y="288" class="v">P1120 · P1121 · P1129</text>
+<text x="40" y="236" class="k">SUBJECT</text><text x="40" y="252" class="v">Lexus IS200 / Altezza GXE10</text><text x="340" y="236" class="k">ENGINE</text><text x="340" y="252" class="v">1G-FE BEAMS, 2.0 L I6</text><text x="640" y="236" class="k">SYSTEM</text><text x="640" y="252" class="v">ETCS-i (hybrid cable + motor)</text><text x="40" y="272" class="k">ECM</text><text x="40" y="288" class="v">RM684E, pin plug E5</text><text x="340" y="272" class="k">SIGNALS</text><text x="340" y="288" class="v">VPA, VPA2, VC, E2</text><text x="640" y="272" class="k">FAULT CODE OF INTEREST</text><text x="640" y="288" class="v">P1120 · P1121 · P1129</text>
 <rect x="0" y="317" width="960" height="3" fill="var(--rule)"/>
 </svg>
